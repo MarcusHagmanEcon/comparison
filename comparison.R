@@ -12,3 +12,5 @@ reg <- lm(y ~ x1 + x2 + x3, data = data)
 end_time <- proc.time()
 
 print(end_time - start_time)
+# 60 seconds on Laptop
+# 200 seconds on office computer
